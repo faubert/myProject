@@ -6,10 +6,15 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
+/**
+ * Class MenuController
+ * @package App\Controller
+ * @Route("/menu")
+ */
 class MenuController extends AbstractController
 {
     /**
-     * @Route("/menu", name="menu")
+     * @Route("/", name="menu")
      */
     public function index(): Response
     {

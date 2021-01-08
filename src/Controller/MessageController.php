@@ -6,10 +6,15 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
+/**
+ * Class MessageController
+ * @package App\Controller
+ * @Route("/message")
+ */
 class MessageController extends AbstractController
 {
     /**
-     * @Route("/message", name="message")
+     * @Route("/", name="message")
      */
     public function index(): Response
     {

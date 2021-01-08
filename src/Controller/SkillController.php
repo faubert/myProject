@@ -6,10 +6,15 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
+/**
+ * Class SkillController
+ * @package App\Controller
+ * @Route("/skill")
+ */
 class SkillController extends AbstractController
 {
     /**
-     * @Route("/skill", name="skill")
+     * @Route("/", name="skill")
      */
     public function index(): Response
     {

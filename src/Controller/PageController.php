@@ -6,10 +6,15 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
+/**
+ * Class PageController
+ * @package App\Controller
+ * @Route("/page")
+ */
 class PageController extends AbstractController
 {
     /**
-     * @Route("/page", name="page")
+     * @Route("/", name="page")
      */
     public function index(): Response
     {
