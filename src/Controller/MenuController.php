@@ -22,4 +22,28 @@ class MenuController extends AbstractController
             'controller_name' => 'MenuController',
         ]);
     }
+
+    /**
+     * @Route("/create", name="menu_create")
+     */
+    public function create()
+    {
+
+    }
+
+    /**
+     * @Route("/edit/{id}", name="menu_edit")
+     */
+    public function edit()
+    {
+
+    }
+
+    /**
+     * @Route("/delete/{id}", name="menu_delete")
+     */
+    public function delete()
+    {
+
+    }
 }

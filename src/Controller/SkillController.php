@@ -22,4 +22,29 @@ class SkillController extends AbstractController
             'controller_name' => 'SkillController',
         ]);
     }
+
+    /**
+     * @Route("/skill/add", name="skill_create")
+     */
+    public function create()
+    {
+
+    }
+
+    /**
+     * @param $id
+     * @Route("/edit/{id}", name="skill_edit")
+     */
+    public function edit($id)
+    {
+
+    }
+
+    /**
+     * @Route("/delete/{id}", name="skill_delete")
+     */
+    public function delete()
+    {
+
+    }
 }

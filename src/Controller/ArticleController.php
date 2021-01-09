@@ -22,4 +22,28 @@ class ArticleController extends AbstractController
             'controller_name' => 'ArticleController',
         ]);
     }
+
+    /**
+     * @Route("/create", name="article_create")
+     */
+    public function create()
+    {
+
+    }
+
+    /**
+     * @Route("/edit/{id}", name="article_edit")
+     */
+    public function edit()
+    {
+
+    }
+
+    /**
+     * @Route("/delete/{id}", name="article_delete")
+     */
+    public function delete()
+    {
+
+    }
 }

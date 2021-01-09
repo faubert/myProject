@@ -50,7 +50,7 @@ class Adress
     private $adressType;
 
     /**
-     * @ORM\Column(type="string", length=255)
+     * @ORM\ManyToOne(targetEntity="Account", inversedBy="adress")
      */
     private $account;
 

@@ -22,4 +22,28 @@ class PageController extends AbstractController
             'controller_name' => 'PageController',
         ]);
     }
+
+    /**
+     * @Route("/page/create", name="page_create")
+     */
+    public function create()
+    {
+
+    }
+
+    /**
+     * @Route("/edit/{id}", name="page_edit")
+     */
+    public function edit()
+    {
+
+    }
+
+    /**
+     * @Route("/delete/{id}", name="page_delete")
+     */
+    public function delete()
+    {
+
+    }
 }

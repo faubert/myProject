@@ -14,7 +14,7 @@ use Symfony\Component\Routing\Annotation\Route;
 class MenuItemController extends AbstractController
 {
     /**
-     * @Route("/menu/item", name="menu_item")
+     * @Route("/menu_item", name="menu_item")
      */
     public function index(): Response
     {

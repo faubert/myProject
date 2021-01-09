@@ -14,7 +14,7 @@ use Symfony\Component\Routing\Annotation\Route;
 class PhoneController extends AbstractController
 {
     /**
-     * @Route("/phone", name="phone")
+     * @Route("/", name="phone")
      */
     public function index(): Response
     {

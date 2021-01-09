@@ -22,4 +22,28 @@ class ProfilController extends AbstractController
             'controller_name' => 'ProfilController',
         ]);
     }
+
+    /**
+     * @Route("/create", name="profil_create")
+     */
+    public function create()
+    {
+
+    }
+
+    /**
+     * @Route("/edit/{id}", name="profil_edit")
+     */
+    public function edit()
+    {
+
+    }
+
+    /**
+     * @Route("/delete/{id}", name="profil_delete")
+     */
+    public function delete()
+    {
+
+    }
 }

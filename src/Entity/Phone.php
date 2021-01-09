@@ -30,7 +30,7 @@ class Phone
     private $phoneType;
 
     /**
-     * @ORM\Column(type="string", length=255)
+     * @ORM\ManyToOne(targetEntity="Account", inversedBy="phone")
      */
     private $account;
 

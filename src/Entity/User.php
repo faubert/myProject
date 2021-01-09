@@ -36,6 +36,11 @@ class User implements UserInterface
      */
     private $password;
 
+    /**
+     * @ORM\OneToMany(targetEntity="Account", mappedBy="user")
+     */
+    private $accounts;
+
     public function getId(): ?int
     {
         return $this->id;

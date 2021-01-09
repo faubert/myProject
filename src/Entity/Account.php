@@ -45,14 +45,19 @@ class Account
     private $email;
 
     /**
-     * @ORM\Column(type="string", length=255)
+     * @ORM\OneToMany(targetEntity="Adress", mappedBy="account")
      */
     private $adress;
 
     /**
-     * @ORM\Column(type="string", length=255)
+     * @ORM\OneToMany(targetEntity="Phone", mappedBy="account")
      */
     private $phone;
+
+    /**
+     * @ORM\ManyToOne(targetEntity="User", inversedBy="accounts")
+     */
+    private $user;
 
     public function getId(): ?int
     {

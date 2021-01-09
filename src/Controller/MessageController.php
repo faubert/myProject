@@ -22,4 +22,28 @@ class MessageController extends AbstractController
             'controller_name' => 'MessageController',
         ]);
     }
+
+    /**
+     * @Route("/create", name="message_create")
+     */
+    public function create()
+    {
+
+    }
+
+    /**
+     * @Route("/edit/{id}", name="message_edit")
+     */
+    public function edit()
+    {
+
+    }
+
+    /**
+     * @Route("/delete/{id}", name="message_delete")
+     */
+    public function delete()
+    {
+
+    }
 }
